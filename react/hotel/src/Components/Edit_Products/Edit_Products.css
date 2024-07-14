@@ -1,0 +1,394 @@
+.ed1 {
+  width: 100%;
+  height: 88vh;
+  padding: 0.5vw;
+  overflow: auto;
+}
+
+.ed2 {
+  width: 100%;
+  color: black;
+  border-collapse: collapse;
+  overflow: auto;
+}
+
+.ed3 {
+  background-color: rgb(75, 118, 247);
+  width: 100%;
+
+  table-layout: fixed;
+  position: sticky;
+  top: -1.2vh;
+  z-index: 2;
+}
+
+.ed3-1 {
+  table-layout: fixed;
+  position: sticky;
+  top: -1.2vh;
+  z-index: 2;
+}
+
+.ed4 {
+  border: 1px solid #9e9e9e;
+  padding: 0.5vh 0;
+}
+
+.ed4-1 {
+  width: 10%;
+}
+.ed4-2 {
+  width: 10%;
+}
+.ed4-3 {
+  width: 10%;
+}
+.ed4-4 {
+  width: 20%;
+}
+.ed4-5 {
+  width: 10%;
+}
+.ed4-6 {
+  width: 5%;
+}
+.ed4-7 {
+  width: 5%;
+}
+
+.ed5 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 30vh;
+  border: 1px solid #9e9e9e;
+  padding: 0.5vh 0;
+}
+
+.ed5-1 {
+  width: 10%;
+}
+.ed5-2 {
+  width: 15%;
+}
+.ed5-3 {
+  width: 8%;
+}
+.ed5-4 {
+  width: 20%;
+}
+.ed5-5 {
+  width: 7%;
+}
+.ed5-6 {
+  width: 5%;
+}
+.ed5-7 {
+  width: 5%;
+}
+
+.ed6 {
+  border: 1px solid #9e9e9e;
+  padding: 0.5vh 0;
+  text-align: center;
+  word-break: break-word;
+  vertical-align: top;
+  padding: 0.3vw;
+  font-size: 0.9vw;
+  height: 100%;
+}
+
+.ed7 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.ed8 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  /* display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  height: 100%;
+  word-spacing: normal; */
+}
+
+.ed9 {
+  width: 100%;
+  height: 4vh;
+  cursor: pointer;
+}
+
+.ed10 {
+  width: 100%;
+  height: 4vh;
+  cursor: pointer;
+  fill: #f36c60;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-i {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 40%;
+  height: 60%;
+}
+
+.popup-i1 {
+  width: 100%;
+  height: 100%;
+}
+
+.pop-i1 {
+  display: flex;
+  width: 100%;
+  height: 55%;
+}
+
+.pop1 {
+  width: 12vw;
+  height: 28vh;
+}
+
+.pop2 {
+  margin-left: 1vw;
+  width: 23vw;
+  height: 100%;
+}
+
+.pop3 {
+  width: 100%;
+  height: 5vh;
+  margin-bottom: 5vh;
+}
+
+.pop3-1 {
+  color: #000000;
+}
+
+.pop3-2 {
+  width: 70%;
+  height: 100%;
+  margin-left: 1vw;
+  padding: 0.5vw;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #424242;
+  outline: none;
+  background-color: aliceblue;
+}
+
+.pop3-2:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.pop4 {
+  display: flex;
+  margin-top: 2vh;
+  width: 90%;
+  height: 30%;
+}
+
+.pop4-1 {
+  background-color: #ffffff;
+  width: 70%;
+  margin-left: 0.8vw;
+  padding: 0.5vw;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #424242;
+  outline: none;
+  background-color: aliceblue;
+}
+.pop4-1:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.pop4-2 {
+  color: #000000;
+}
+
+.i-pop {
+  width: 100%;
+  height: 100%;
+}
+
+.pop5 {
+  margin-top: 1vh;
+  display: flex;
+  justify-content: center;
+  padding: 0.2vh 0;
+}
+
+.pop6 {
+  margin-right: 2vw;
+}
+
+.pop6 {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: rgb(61, 106, 255);
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.pop6:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #fff;
+}
+
+.pop6:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.pop6::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.pop6:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.pop7 {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(255, 61, 61);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: rgb(255, 61, 61);
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.pop7:hover {
+  border: 1px solid rgb(255, 61, 61);
+  background: rgb(255, 61, 61);
+  box-shadow: 0 0 30px 5px rgba(236, 0, 0, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #fff;
+}
+
+.pop7:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.pop7::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.pop7:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
